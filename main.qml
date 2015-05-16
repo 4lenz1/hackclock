@@ -26,7 +26,7 @@ ApplicationWindow {
             id:timeBar
             color : "Red"
             height: parent.height
-            width: parent.width
+            //width: parent.width
             radius: parent.radius
             anchors.horizontalCenter: parent.horizontalCenter
         }
@@ -134,7 +134,7 @@ ApplicationWindow {
         //        y: (parent.height / 2 ) - (height /2 )
         color: "gray"
         opacity: .5
-        border.width: window.width *.01
+        border.width: window.width *.008
         z:1
 
         //        Rectangle{
@@ -237,15 +237,27 @@ ApplicationWindow {
             }
         }
     }
-
+ParallelAnimation{
+    id:showCount
         NumberAnimation {
-            id:showCount
+
             target: circle
             property: "opacity"
             duration: 2000
             from:0
             to : .7
         }
+        NumberAnimation {
+            target: timeBar
+            property: "width"
+            duration: 2000
+            easing.type: Easing.InOutQuad
+            from: 0
+            to: circle.width
+
+        }
+
+}
 
         NumberAnimation {
             id: anitimeBar
