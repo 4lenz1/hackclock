@@ -23,7 +23,7 @@ ApplicationWindow {
         Behavior on x{
             NumberAnimation{
                 duration: 1000;
-                easing.type: Easing.OutBack;
+                easing.type: Easing.OutElastic;
             }
         }
 
@@ -142,7 +142,7 @@ ApplicationWindow {
 
 
     Timer{
-        property int  counter: 10;
+        property int  counter: 5;
         interval: 1000;
         repeat: true
         running: true
@@ -154,12 +154,14 @@ ApplicationWindow {
                 txtCouter.text = "Time's up"
                 pump.running = false;
                 mscounter.running = false
-                if( (tube.width /2 ) < coca.x + coca.width){
-                    console.log("P1 win" + coca.x + coca.width +"width : " + window.width )
-                }else if(tube.width /2 == coca.x + coca.width){
+                if( (tube.width /2 ) < (coca.x + (coca.width /2))){
+                    console.log("P1 win" + (coca.x +( coca.width / 2 )) +"width : " + window.width )
+                    p1_win = true
+                }else if(tube.width /2 == (coca.x +( coca.width / 2 ))){
                         console.log("Tie");
                 }else{
-                    console.log("P2 win");
+                    p1_win = false
+                    console.log("P2 win" +(coca.x +( coca.width / 2 )) +"width : " + window.width );
                 }
 
             }else{
@@ -171,9 +173,11 @@ ApplicationWindow {
 
     property int count_P1: 0;
     property int count_P2: 0;
-
+    property bool p1_win : null
     Item{
+
         focus:true;
+
         Keys.onPressed:
             switch(event.key){
             case Qt.Key_Left:
@@ -183,6 +187,7 @@ ApplicationWindow {
                 console.log("coca : " + coca.x  + "window : "+ window.width);
 
                 if(coca.x >= (window.width - coca.width) ){
+                    p1_win = true
                     console.log("P1 win");
                 }
 
@@ -194,6 +199,7 @@ ApplicationWindow {
                 count_P2 ++ ;
                 console.log("coca : " + coca.x  + "window : "+ window.width);
                 if(coca.x <= 0){
+                    p1_win  = false
                     console.log("P2 win");
                 }
                 break;
