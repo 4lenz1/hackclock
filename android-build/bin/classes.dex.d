@@ -1,0 +1,27 @@
+C:\Qzone\hackclock\android-build\bin\classes.dex : \
+C:\Qzone\hackclock\android-build\bin\classes\org\kde\necessitas\ministro\IMinistro$Stub$Proxy.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\kde\necessitas\ministro\IMinistro$Stub.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\kde\necessitas\ministro\IMinistro.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\kde\necessitas\ministro\IMinistroCallback$Stub$Proxy.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\kde\necessitas\ministro\IMinistroCallback$Stub.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\kde\necessitas\ministro\IMinistroCallback.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\example\hackclock\BuildConfig.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\example\hackclock\R$array.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\example\hackclock\R$attr.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\example\hackclock\R$layout.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\example\hackclock\R$string.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\example\hackclock\R.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$1.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$2.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$3$1$1.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$3$1.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$3.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$4.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$5.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity$6.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtActivity.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtApplication$InvokeResult.class \
+C:\Qzone\hackclock\android-build\bin\classes\org\qtproject\qt5\android\bindings\QtApplication.class \
+C:\Qzone\hackclock\android-build\bin\dexedLibs\QtAndroid-bundled-6a8f659d43b09afe701b245e8cab877e.jar \
+C:\Qzone\hackclock\android-build\bin\dexedLibs\QtAndroidBearer-bundled-18653160465a8d174288a28cdacac7ff.jar \
+C:\Qzone\hackclock\android-build\bin\dexedLibs\QtAndroidAccessibility-bundled-43ace19618643c3cbe026122e3810ea3.jar \
